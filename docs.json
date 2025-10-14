@@ -3,11 +3,11 @@
   "theme": "mint",
   "name": "Cattus",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#5c7fa9",
+    "light": "#8ba3c7",
+    "dark": "#3d5a7a"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/favicon.png",
   "navigation": {
     "languages": [
       {
