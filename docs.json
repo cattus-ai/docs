@@ -86,5 +86,11 @@
       "x": "https://x.com/cattusai",
       "github": "https://github.com/cattus"
     }
+  },
+  "seo": {
+    "metatags": {
+      "og:image": "/favicon.png",
+      "description": "Cattus.ai brings you unlimited access to leading AI models — Affordable, powerful conversational AI in one platform."
+    }
   }
 }
