@@ -3,9 +3,20 @@ title: "Web Search"
 description: "Search the web in real-time with native internet access across all models"
 ---
 
+import { APP_URL } from '/snippets/urls.mdx';
+
 ## Overview
 
 All AI models in Cattus have native access to the internet, enabling them to search the web in real-time during your conversations. This capability ensures you receive up-to-date information, current events, and the latest data without leaving the chat interface.
+
+<Card
+  title="Try Web Search Now"
+  icon="globe"
+  href={APP_URL}
+  horizontal
+>
+  Ask questions and get real-time answers from the web. Start free today.
+</Card>
 
 ## How It Works
 
@@ -115,3 +126,22 @@ The model will determine when web search is necessary based on your query. For q
 <Warning>
 While web search provides access to current information, always verify critical information from authoritative sources, especially for important decisions.
 </Warning>
+
+## Start Using Web Search
+
+<CardGroup cols={2}>
+  <Card
+    title="Get Started Free"
+    icon="rocket"
+    href={APP_URL}
+  >
+    Launch Cattus and start asking questions with real-time web search.
+  </Card>
+  <Card
+    title="Explore All Features"
+    icon="grid"
+    href="/features/models"
+  >
+    Discover how web search works with multi-model selection and other features.
+  </Card>
+</CardGroup>

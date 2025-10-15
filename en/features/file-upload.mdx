@@ -3,11 +3,34 @@ title: "File Upload"
 description: "Import documents and images to chat with your files"
 ---
 
+import { APP_URL, PRICING_URL } from '/snippets/urls.mdx';
+
 ## Overview
 
 Cattus allows you to upload files directly into your conversations, making it easy to analyze documents, extract information, and work with visual content. The platform converts your files into text that AI models can understand and process.
 
+<Card
+  title="Start Uploading Files"
+  icon="file-arrow-up"
+  href={APP_URL}
+  horizontal
+>
+  Upload and chat with your documents today. Start for free.
+</Card>
+
+<Info>
+**Video Tutorial:** Coming soon - placeholder for a 3-4 minute video showing the file upload process, different file types, and example use cases like document analysis and image OCR.
+</Info>
+
 ## Uploading Files
+
+<Note>
+**Screenshot Recommendations:** Add screenshots showing:
+1. The file upload button/icon location in the chat interface
+2. File selection dialog
+3. Processing/uploading status indicator
+4. Successfully uploaded file with example questions being asked
+</Note>
 
 <Steps>
   <Step title="Click Upload Button">
@@ -47,7 +70,7 @@ Cattus supports a variety of file formats:
 </CardGroup>
 
 <Info>
-File size limits may apply based on your subscription plan. Check your account settings for specific limits.
+File size limits may apply based on your subscription plan. Check your account settings for specific limits. [Upgrade your plan]({PRICING_URL}) for higher file size limits and more uploads.
 </Info>
 
 ## Use Cases
@@ -167,3 +190,22 @@ Be mindful of privacy and confidentiality when uploading sensitive documents. En
 <Info>
 Some AI models work better with certain file types. If you're not getting good results, try switching to a different model or reformatting your file.
 </Info>
+
+## Start Working with Your Files
+
+<CardGroup cols={2}>
+  <Card
+    title="Upload Your First File"
+    icon="cloud-arrow-up"
+    href={APP_URL}
+  >
+    Launch Cattus and start uploading and analyzing your documents.
+  </Card>
+  <Card
+    title="Get More Storage"
+    icon="crown"
+    href={PRICING_URL}
+  >
+    Upgrade to Pro for higher file size limits and unlimited uploads.
+  </Card>
+</CardGroup>

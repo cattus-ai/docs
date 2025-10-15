@@ -3,9 +3,20 @@ title: "Recherche Web"
 description: "Recherchez sur le web en temps réel avec un accès internet natif sur tous les modèles"
 ---
 
+import { APP_URL, PRICING_URL } from '/snippets/urls.mdx';
+
 ## Aperçu
 
 Tous les modèles d'IA dans Cattus ont un accès natif à Internet, leur permettant de rechercher sur le web en temps réel pendant vos conversations. Cette capacité garantit que vous recevez des informations à jour, des événements actuels et les dernières données sans quitter l'interface de chat.
+
+<Card
+  title="Essayer la Recherche Web Maintenant"
+  icon="globe"
+  href={APP_URL}
+  horizontal
+>
+  Posez des questions et obtenez des réponses en temps réel depuis le web. Commencez gratuitement dès aujourd'hui.
+</Card>
 
 ## Comment ça fonctionne
 
@@ -115,3 +126,22 @@ Le modèle déterminera quand la recherche web est nécessaire en fonction de vo
 <Warning>
 Bien que la recherche web donne accès à des informations actuelles, vérifiez toujours les informations critiques auprès de sources faisant autorité, en particulier pour les décisions importantes.
 </Warning>
+
+## Commencer à Utiliser la Recherche Web
+
+<CardGroup cols={2}>
+  <Card
+    title="Commencer Gratuitement"
+    icon="rocket"
+    href={APP_URL}
+  >
+    Lancez Cattus et commencez à poser des questions avec la recherche web en temps réel.
+  </Card>
+  <Card
+    title="Explorer Toutes les Fonctionnalités"
+    icon="grid"
+    href="/fr/features/models"
+  >
+    Découvrez comment la recherche web fonctionne avec la sélection multi-modèles et d'autres fonctionnalités.
+  </Card>
+</CardGroup>

@@ -3,9 +3,20 @@ title: "Multi-Model Selection"
 description: "Access multiple AI models from different providers in one conversation"
 ---
 
+import { APP_URL, PRICING_URL } from '/snippets/urls.mdx';
+
 ## Overview
 
 Cattus allows you to seamlessly switch between different AI models during your conversations. This flexibility lets you leverage the unique strengths of various models for different tasks.
+
+<Card
+  title="Try Multi-Model Chat Now"
+  icon="rocket"
+  href={APP_URL}
+  horizontal
+>
+  Experience the power of multiple AI models in one conversation. Start free today.
+</Card>
 
 ## How It Works
 
@@ -54,7 +65,7 @@ Cattus supports models from leading AI providers, including:
 - And more
 
 <Info>
-The available models may vary based on your subscription plan. Check your account settings to see which models you have access to.
+The available models may vary based on your subscription plan. Check your account settings to see which models you have access to. [View pricing plans]({PRICING_URL}) to unlock access to all models.
 </Info>
 
 ## Best Practices
@@ -95,3 +106,22 @@ Save your preferred model selections for different types of tasks to streamline 
 <Warning>
 Switching models mid-conversation creates a new context. The new model won't have the same "memory" of previous exchanges unless you explicitly reference them.
 </Warning>
+
+## Ready to Get Started?
+
+<CardGroup cols={2}>
+  <Card
+    title="Start Using Multi-Model Chat"
+    icon="comments"
+    href={APP_URL}
+  >
+    Launch Cattus and start switching between AI models in your conversations.
+  </Card>
+  <Card
+    title="Upgrade for Full Access"
+    icon="crown"
+    href={PRICING_URL}
+  >
+    Get unlimited access to all AI models with our Pro plan.
+  </Card>
+</CardGroup>

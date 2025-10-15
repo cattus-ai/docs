@@ -3,6 +3,8 @@ title: "Bienvenue sur Cattus"
 description: "Votre plateforme de chat IA avec support multi-modèles"
 ---
 
+import { APP_URL, PRICING_URL, SIGNUP_URL } from '/snippets/urls.mdx';
+
 ## Qu'est-ce que Cattus ?
 
 Cattus est une plateforme de chat IA puissante qui rassemble plusieurs modèles d'IA, la recherche web en temps réel, des capacités de génération d'images et un traitement de documents fluide dans une interface intuitive.
@@ -14,6 +16,15 @@ Cattus est une plateforme de chat IA puissante qui rassemble plusieurs modèles 
   horizontal
 >
   Commencez avec Cattus en quelques minutes.
+</Card>
+
+<Card
+  title="Commencer l'Essai Gratuit"
+  icon="rocket"
+  href={APP_URL}
+  horizontal
+>
+  Découvrez la puissance de Cattus dès aujourd'hui. Aucune carte de crédit requise.
 </Card>
 
 ## Fonctionnalités Principales
@@ -68,6 +79,32 @@ Cattus offre quatre capacités essentielles pour améliorer vos interactions ave
   </Card>
 </CardGroup>
 
+<Card
+  title="Passer à Pro"
+  icon="crown"
+  href={PRICING_URL}
+  horizontal
+>
+  Débloquez un accès illimité à tous les modèles et fonctionnalités. Voir les tarifs.
+</Card>
+
 ## Commencer
 
 Prêt à explorer Cattus ? Suivez notre [guide de démarrage rapide](/fr/quickstart) pour commencer à utiliser la plateforme.
+
+<CardGroup cols={2}>
+  <Card
+    title="Créer un Compte Gratuit"
+    icon="user-plus"
+    href={SIGNUP_URL}
+  >
+    Commencez à utiliser Cattus gratuitement dès aujourd'hui. Aucune carte de crédit requise.
+  </Card>
+  <Card
+    title="Voir les Tarifs"
+    icon="tag"
+    href={PRICING_URL}
+  >
+    Explorez nos plans et trouvez celui qui correspond parfaitement à vos besoins.
+  </Card>
+</CardGroup>

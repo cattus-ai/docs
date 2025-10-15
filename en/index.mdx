@@ -3,6 +3,8 @@ title: "Welcome to Cattus"
 description: "Your AI-powered chat platform with multi-model support"
 ---
 
+import { APP_URL, PRICING_URL, SIGNUP_URL } from '/snippets/urls.mdx';
+
 ## What is Cattus?
 
 Cattus is a powerful AI chat platform that brings together multiple AI models, real-time web search, image generation capabilities, and seamless document processing in one intuitive interface.
@@ -14,6 +16,15 @@ Cattus is a powerful AI chat platform that brings together multiple AI models, r
   horizontal
 >
   Get up and running with Cattus in minutes.
+</Card>
+
+<Card
+  title="Start Free Trial"
+  icon="rocket"
+  href={APP_URL}
+  horizontal
+>
+  Experience the power of Cattus today. No credit card required.
 </Card>
 
 ## Core Features
@@ -68,6 +79,32 @@ Cattus provides four essential capabilities to enhance your AI interactions:
   </Card>
 </CardGroup>
 
+<Card
+  title="Upgrade to Pro"
+  icon="crown"
+  href={PRICING_URL}
+  horizontal
+>
+  Unlock unlimited access to all models and features. View pricing plans.
+</Card>
+
 ## Get Started
 
 Ready to explore Cattus? Follow our [quickstart guide](/quickstart) to begin using the platform.
+
+<CardGroup cols={2}>
+  <Card
+    title="Create Free Account"
+    icon="user-plus"
+    href={SIGNUP_URL}
+  >
+    Start using Cattus for free today. No credit card required.
+  </Card>
+  <Card
+    title="View Pricing"
+    icon="tag"
+    href={PRICING_URL}
+  >
+    Explore our plans and find the perfect fit for your needs.
+  </Card>
+</CardGroup>
