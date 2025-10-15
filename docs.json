@@ -25,6 +25,7 @@
             "pages": [
               "en/features/models",
               "en/features/image-generation",
+              "en/features/web-search",
               "en/features/file-upload"
             ]
           }
@@ -45,6 +46,7 @@
             "pages": [
               "fr/features/models",
               "fr/features/image-generation",
+              "fr/features/web-search",
               "fr/features/file-upload"
             ]
           }
