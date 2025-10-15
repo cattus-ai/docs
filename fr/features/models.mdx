@@ -3,9 +3,20 @@ title: "Sélection Multi-Modèles"
 description: "Accédez à plusieurs modèles d'IA de différents fournisseurs dans une seule conversation"
 ---
 
+import { APP_URL, PRICING_URL } from '/snippets/urls.mdx';
+
 ## Vue d'Ensemble
 
 Cattus vous permet de basculer facilement entre différents modèles d'IA pendant vos conversations. Cette flexibilité vous permet d'exploiter les forces uniques de divers modèles pour différentes tâches.
+
+<Card
+  title="Essayer le Chat Multi-Modèles Maintenant"
+  icon="rocket"
+  href={APP_URL}
+  horizontal
+>
+  Découvrez la puissance de plusieurs modèles d'IA dans une seule conversation. Commencez gratuitement dès aujourd'hui.
+</Card>
 
 ## Comment ça Marche
 
@@ -54,7 +65,7 @@ Cattus prend en charge les modèles de fournisseurs d'IA leaders, notamment :
 - Et plus encore
 
 <Info>
-Les modèles disponibles peuvent varier en fonction de votre plan d'abonnement. Vérifiez les paramètres de votre compte pour voir quels modèles vous pouvez utiliser.
+Les modèles disponibles peuvent varier en fonction de votre plan d'abonnement. Vérifiez les paramètres de votre compte pour voir quels modèles vous pouvez utiliser. [Voir les plans tarifaires]({PRICING_URL}) pour débloquer l'accès à tous les modèles.
 </Info>
 
 ## Bonnes Pratiques
@@ -95,3 +106,22 @@ Enregistrez vos sélections de modèles préférées pour différents types de t
 <Warning>
 Changer de modèle en cours de conversation crée un nouveau contexte. Le nouveau modèle n'aura pas la même "mémoire" des échanges précédents sauf si vous les référencez explicitement.
 </Warning>
+
+## Prêt à Commencer ?
+
+<CardGroup cols={2}>
+  <Card
+    title="Utiliser le Chat Multi-Modèles"
+    icon="comments"
+    href={APP_URL}
+  >
+    Lancez Cattus et commencez à basculer entre les modèles d'IA dans vos conversations.
+  </Card>
+  <Card
+    title="Passer à la Version Pro"
+    icon="crown"
+    href={PRICING_URL}
+  >
+    Obtenez un accès illimité à tous les modèles d'IA avec notre plan Pro.
+  </Card>
+</CardGroup>

@@ -3,13 +3,36 @@ title: "Image Generation"
 description: "Create stunning images from text descriptions using AI"
 ---
 
+import { APP_URL, PRICING_URL } from '/snippets/urls.mdx';
+
 ## Overview
 
 Cattus includes powerful image generation capabilities that let you create visual content directly from text descriptions. Simply describe what you want to see, and AI models will generate images based on your prompts.
 
+<Card
+  title="Start Creating Images"
+  icon="palette"
+  href={APP_URL}
+  horizontal
+>
+  Try image generation now. Create stunning visuals from text in seconds.
+</Card>
+
+<Info>
+**Video Tutorial:** Coming soon - placeholder for a 3-4 minute video demonstrating image generation, including writing effective prompts and using different providers.
+</Info>
+
 ## Generating Images
 
 ### Basic Image Generation
+
+<Note>
+**Screenshot Recommendations:** Add screenshots showing:
+1. The image generation interface/option in the chat
+2. Example of writing a detailed prompt
+3. Generated image results
+4. Before/after examples of prompt refinement
+</Note>
 
 <Steps>
   <Step title="Access Image Generation">
@@ -43,7 +66,7 @@ Cattus supports multiple image generation providers:
 </CardGroup>
 
 <Info>
-Available image generation providers may depend on your subscription plan.
+Available image generation providers may depend on your subscription plan. [View pricing]({PRICING_URL}) to access all image generation models.
 </Info>
 
 ## Writing Effective Prompts
@@ -144,3 +167,22 @@ Generated images are subject to content policies. Ensure your prompts comply wit
 <Tip>
 If an image doesn't match your expectations, try rephrasing your prompt rather than just regenerating with the same description.
 </Tip>
+
+## Start Creating Today
+
+<CardGroup cols={2}>
+  <Card
+    title="Generate Your First Image"
+    icon="sparkles"
+    href={APP_URL}
+  >
+    Launch Cattus and start creating AI-generated images right away.
+  </Card>
+  <Card
+    title="Unlock All Generators"
+    icon="crown"
+    href={PRICING_URL}
+  >
+    Access all image generation models with unlimited credits on Pro plans.
+  </Card>
+</CardGroup>

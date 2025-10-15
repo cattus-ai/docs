@@ -3,13 +3,36 @@ title: "Génération d'Images"
 description: "Créez des images époustouflantes à partir de descriptions textuelles avec l'IA"
 ---
 
+import { APP_URL, PRICING_URL } from '/snippets/urls.mdx';
+
 ## Vue d'Ensemble
 
 Cattus inclut de puissantes capacités de génération d'images qui vous permettent de créer du contenu visuel directement à partir de descriptions textuelles. Décrivez simplement ce que vous voulez voir, et les modèles d'IA généreront des images basées sur vos prompts.
 
+<Card
+  title="Commencer à Créer des Images"
+  icon="palette"
+  href={APP_URL}
+  horizontal
+>
+  Essayez la génération d'images maintenant. Créez des visuels époustouflants à partir de texte en quelques secondes.
+</Card>
+
+<Info>
+**Tutoriel Vidéo :** Bientôt disponible - emplacement pour une vidéo de 3-4 minutes démontrant la génération d'images, y compris la rédaction de prompts efficaces et l'utilisation de différents fournisseurs.
+</Info>
+
 ## Générer des Images
 
 ### Génération d'Images de Base
+
+<Note>
+**Recommandations de Captures d'Écran :** Ajoutez des captures d'écran montrant :
+1. L'interface/option de génération d'images dans le chat
+2. Exemple de rédaction d'un prompt détaillé
+3. Résultats d'images générées
+4. Exemples avant/après de raffinement de prompt
+</Note>
 
 <Steps>
   <Step title="Accéder à la Génération d'Images">
@@ -43,7 +66,7 @@ Cattus prend en charge plusieurs fournisseurs de génération d'images :
 </CardGroup>
 
 <Info>
-Les fournisseurs de génération d'images disponibles peuvent dépendre de votre plan d'abonnement.
+Les fournisseurs de génération d'images disponibles peuvent dépendre de votre plan d'abonnement. [Voir les tarifs]({PRICING_URL}) pour accéder à tous les modèles de génération d'images.
 </Info>
 
 ## Rédiger des Prompts Efficaces
@@ -144,3 +167,22 @@ Les images générées sont soumises aux politiques de contenu. Assurez-vous que
 <Tip>
 Si une image ne correspond pas à vos attentes, essayez de reformuler votre prompt plutôt que de simplement régénérer avec la même description.
 </Tip>
+
+## Commencez à Créer Aujourd'hui
+
+<CardGroup cols={2}>
+  <Card
+    title="Générer Votre Première Image"
+    icon="sparkles"
+    href={APP_URL}
+  >
+    Lancez Cattus et commencez à créer des images générées par IA immédiatement.
+  </Card>
+  <Card
+    title="Débloquer Tous les Générateurs"
+    icon="crown"
+    href={PRICING_URL}
+  >
+    Accédez à tous les modèles de génération d'images avec des crédits illimités sur les plans Pro.
+  </Card>
+</CardGroup>

@@ -3,11 +3,34 @@ title: "Téléchargement de Fichiers"
 description: "Importez des documents et des images pour discuter avec vos fichiers"
 ---
 
+import { APP_URL, PRICING_URL } from '/snippets/urls.mdx';
+
 ## Vue d'Ensemble
 
 Cattus vous permet de télécharger des fichiers directement dans vos conversations, facilitant l'analyse de documents, l'extraction d'informations et le travail avec du contenu visuel. La plateforme convertit vos fichiers en texte que les modèles d'IA peuvent comprendre et traiter.
 
+<Card
+  title="Commencer à Télécharger des Fichiers"
+  icon="file-arrow-up"
+  href={APP_URL}
+  horizontal
+>
+  Téléchargez et discutez avec vos documents dès aujourd'hui. Commencez gratuitement.
+</Card>
+
+<Info>
+**Tutoriel Vidéo :** Bientôt disponible - emplacement pour une vidéo de 3-4 minutes montrant le processus de téléchargement de fichiers, les différents types de fichiers et des exemples de cas d'usage comme l'analyse de documents et l'OCR d'images.
+</Info>
+
 ## Télécharger des Fichiers
+
+<Note>
+**Recommandations de Captures d'Écran :** Ajoutez des captures d'écran montrant :
+1. L'emplacement du bouton/icône de téléchargement de fichier dans l'interface de chat
+2. La boîte de dialogue de sélection de fichier
+3. L'indicateur de statut de traitement/téléchargement
+4. Un fichier téléchargé avec succès avec des exemples de questions posées
+</Note>
 
 <Steps>
   <Step title="Cliquer sur le Bouton de Téléchargement">
@@ -47,7 +70,7 @@ Cattus prend en charge une variété de formats de fichiers :
 </CardGroup>
 
 <Info>
-Des limites de taille de fichier peuvent s'appliquer en fonction de votre plan d'abonnement. Vérifiez les paramètres de votre compte pour les limites spécifiques.
+Des limites de taille de fichier peuvent s'appliquer en fonction de votre plan d'abonnement. Vérifiez les paramètres de votre compte pour les limites spécifiques. [Améliorez votre plan]({PRICING_URL}) pour des limites de taille de fichier plus élevées et plus de téléchargements.
 </Info>
 
 ## Cas d'Usage
@@ -167,3 +190,22 @@ Soyez attentif à la confidentialité lors du téléchargement de documents sens
 <Info>
 Certains modèles d'IA fonctionnent mieux avec certains types de fichiers. Si vous n'obtenez pas de bons résultats, essayez de changer de modèle ou de reformater votre fichier.
 </Info>
+
+## Commencer à Travailler avec Vos Fichiers
+
+<CardGroup cols={2}>
+  <Card
+    title="Télécharger Votre Premier Fichier"
+    icon="cloud-arrow-up"
+    href={APP_URL}
+  >
+    Lancez Cattus et commencez à télécharger et analyser vos documents.
+  </Card>
+  <Card
+    title="Obtenir Plus de Stockage"
+    icon="crown"
+    href={PRICING_URL}
+  >
+    Passez à Pro pour des limites de taille de fichier plus élevées et des téléchargements illimités.
+  </Card>
+</CardGroup>
