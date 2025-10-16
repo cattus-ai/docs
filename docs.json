@@ -1,11 +1,17 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "almond",
+  "theme": "willow",
   "name": "Cattus",
   "colors": {
     "primary": "#5c7fa9",
-    "light": "#8ba3c7",
-    "dark": "#3d5a7a"
+    "light": "#9CB4D4",
+    "dark": "#2C3E5C"
+  },
+  "background": {
+    "color": {
+      "light": "#FFFFFC",
+      "dark": "#1A1F2E"
+    }
   },
   "favicon": "/favicon.png",
   "navigation": {
