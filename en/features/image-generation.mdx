@@ -22,17 +22,18 @@ Cattus includes powerful image generation capabilities that let you create visua
 **Video Tutorial:** Coming soon - placeholder for a 3-4 minute video demonstrating image generation, including writing effective prompts and using different providers.
 </Info>
 
-## Generating Images
+## How it works
 
 ### Basic Image Generation
 
-<Note>
-**Screenshot Recommendations:** Add screenshots showing:
-1. The image generation interface/option in the chat
-2. Example of writing a detailed prompt
-3. Generated image results
-4. Before/after examples of prompt refinement
-</Note>
+<video
+  autoPlay
+  muted
+  loop
+  playsInline
+  className="w-full aspect-video rounded-xl"
+  src="/videos/image-gen.mp4"
+></video>
 
 <Steps>
   <Step title="Access Image Generation">
@@ -52,26 +53,7 @@ Cattus includes powerful image generation capabilities that let you create visua
   </Step>
 </Steps>
 
-## Supported Providers
-
-Cattus supports multiple image generation providers:
-
-<CardGroup cols={2}>
-  <Card title="DALL-E" icon="paintbrush">
-    High-quality images with excellent understanding of complex prompts and artistic styles.
-  </Card>
-  <Card title="Stable Diffusion" icon="wand-magic-sparkles">
-    Versatile image generation with support for various styles and fine-tuned models.
-  </Card>
-</CardGroup>
-
-<Info>
-Available image generation providers may depend on your subscription plan. <a href={PRICING_URL}>View pricing</a> to access all image generation models.
-</Info>
-
-## Writing Effective Prompts
-
-### Prompt Structure
+### Writing Effective Prompts
 
 A well-crafted prompt typically includes:
 
@@ -102,9 +84,7 @@ Professional product photo of a modern wireless headphone on a minimalist white 
 
 </CodeGroup>
 
-## Image Customization
-
-### Parameters You Can Control
+### Image Customization
 
 Depending on the image generation provider, you may be able to specify:
 
@@ -112,6 +92,21 @@ Depending on the image generation provider, you may be able to specify:
 - **Style**: Artistic style, photography type, or rendering method
 - **Quality**: Resolution and detail level
 - **Variations**: Number of images to generate
+
+## Supported Providers
+
+Cattus supports multiple image generation providers:
+
+<CardGroup cols={2}>
+  <Card title="GPT Image" icon="paintbrush">
+    High-quality images with excellent understanding of complex prompts and artistic styles.
+  </Card>
+</CardGroup>
+
+<Info>
+Available image generation providers may depend on your subscription plan. <a href={PRICING_URL}>View pricing</a> to access all image generation models.
+</Info>
+
 
 <Tip>
 Experiment with different providers and settings to find what works best for your specific use case.
