@@ -3,14 +3,14 @@
   "theme": "willow",
   "name": "Cattus",
   "colors": {
-    "primary": "#5c7fa9",
+    "primary": "#4d6a8f",
     "light": "#9CB4D4",
-    "dark": "#2C3E5C"
+    "dark": "#536B8D"
   },
   "background": {
     "color": {
-      "light": "#FFFFFC",
-      "dark": "#1A1F2E"
+      "light": "#FFFEF5",
+      "dark": "#141824"
     }
   },
   "favicon": "/favicon.png",
